@@ -185,7 +185,6 @@ public class Game {
     public void setScreen(Screen screen) {
         System.out.println("new Screen: " + screen.getClass().getName());
         this.currentScreen = screen;
-        currentScreen.loadFiles();
     }
 
     public void toggleFullscreen() {

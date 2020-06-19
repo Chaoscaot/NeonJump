@@ -23,6 +23,8 @@ public class MenuScreen implements Screen {
 
     public MenuScreen() {
         buttons = new ArrayList<>();
+
+        loadFiles();
     }
 
     @Override
